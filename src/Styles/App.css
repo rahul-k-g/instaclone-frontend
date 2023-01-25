@@ -1,0 +1,206 @@
+.header{
+  display: flex;
+  border: 1px solid green;
+  justify-content: space-around;
+}
+h1{
+  display: inline-block;
+}
+#icon{
+  height: 50px;
+  color: green;
+}
+.tag-text{
+  font-size: 2.5rem;
+  position: relative;
+  top: auto;
+  bottom: 10px;
+  left: 10px;
+  font-weight: bold;
+  color: green;
+}
+.tag{
+  padding: 10px;
+}
+#camera{
+  height: 50px;
+  position: relative;
+  top: 10px;
+}
+.card{
+  height: 60vh;
+  width: 30%;
+  background-color:white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border:  solid 1px rgb(192, 191, 191);
+  border-radius: 1%;
+
+}
+.card-icon{
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+#name-heading{
+  margin-block-end: 0em;
+  margin-left: 10px;
+}
+#location{
+  margin-block-start: 0.2em;
+  margin-left: 10px;
+  color: gray;
+  font-size: 0.9rem;
+}
+.card-header{
+  display: flex;
+  justify-content: space-between;
+}
+#card-image{
+  width: 100%;
+  height: 45%;
+}
+.like-share{
+  height: 25px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+#date-stamp{
+  float: right;
+ font-weight: bold;
+ margin-top: 10px;
+ margin-right: 10px;
+ color: grey;
+}
+#share{
+  margin-left: 10px;
+}
+#number-like{
+  font-size: 0.9rem;
+  margin-left: 10px;
+  color: grey;
+  font-weight: 300;
+}
+h3{
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.container{
+  width: 50%;
+  height: 80vh;
+}
+.parent{
+  display:grid;
+  grid-template-columns:repeat(2,auto);
+  width:1200px;
+  margin:auto;
+}
+.childone{
+  width:100%;
+  height:60%;
+}
+h1{
+  font-size:20px;
+  color:purple;
+}
+.childtwo {
+  text-align:center;
+}
+.childtwo span{
+  font-size: 20px;
+    color: purple;
+    position: relative;
+    top: 70px;
+    right: 207px;
+
+}
+#btn button{
+ margin:10px auto;
+    height: 40px;
+    width: 100px;
+    color: purple;
+    border-color:purple;
+    border-radius: 2%;
+  background-color:grey;
+}
+#btn button:hover{
+  background-color:blue;
+}
+
+.form-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
+  padding-top: 10vh;
+}
+.form{
+  margin-top: 5%;
+  height: 30%;
+  border: 1px solid grey;
+  padding: 2%;
+  width: 50%;
+}
+#label{
+  border: 1px solid gray;
+}
+input{
+  border: 1px solid gray;
+  height: 3vh;
+}
+
+#file{
+  width: 85%;
+}
+#author{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 3.7%;
+  margin-right: 3.7%;
+  margin-top: 2%;
+}
+#description{
+  margin-top: 1.5%;
+  width: 96%;
+  margin-left: 1.45%;
+  margin-bottom: 2%;
+}
+#label{
+padding: 0.15em;
+background-color: #F0F0F0;
+}
+#author-size{
+  height: 2em;
+}
+#post-btn{
+ padding-left: 5%;
+ padding-right: 5%;
+ padding-top: 0.5%;
+ padding-bottom: 0.5%;
+}
+#camera-icon{
+  border-width: 0px;
+  background-color: white;
+}
+.loader-container{
+  display: flex;
+  justify-content: center;
+}
+#loader{
+  margin: 15em;
+  height: 10em;
+  width: 10em;
+}
+.footer{
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 1200px;
+  margin: auto;
+  padding-top: 10px;
+  height: 40px;
+}
