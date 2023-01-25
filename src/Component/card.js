@@ -17,7 +17,7 @@ const  Card = ()=>{
     const [isLoader,setLoder] = useState(true);
 
 useEffect(()=>{
-     fetch("https://instaclone-backend-2023.onrender.com/users").then((res)=>{
+     fetch("https://insta-backend-f6wt.onrender.com/users").then((res)=>{
 
         return res.json()
         }).then((data)=>{
